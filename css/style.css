@@ -1,0 +1,198 @@
+﻿/*===================   Body and Html Settings  ===================*/
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: 400;
+}
+html, body {
+	width: 100%;
+	overflow-x: hidden;
+}
+html {
+	font-size: 100%;
+}
+/*===================   Cover background image  ===================*/
+#wrap {
+	background: linear-gradient( rgba(0,0,0,0.85),rgba(0,0,0,0.50)), url(../images/2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	min-height: 700px;
+	display: table;
+	position: relative;
+}
+/*===================   Heading 1 settings  ===================*/
+h1 {
+	text-transform: uppercase;
+	font-size: 2rem;
+	font-weight: 700;
+}
+.navbar-brand h1
+{
+	color: goldenrod;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+	font-weight: 700;
+	margin-left: 2rem;
+}
+.navbar-light .navbar-nav .nav-link:focus {
+	color: goldenrod;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: white;
+	font-weight: 700;
+}
+/*===================   Applying color questions  ===================*/
+.jumbotron {
+	background-color: #e9ecef00;
+	margin-top: 8rem;
+}
+/*===================   Applying a special color on the span  ===================*/
+#logo
+{
+	color: white;
+}
+span#africa {
+	font-size: 4rem;
+	color: goldenrod;
+}
+#second
+{
+	font-size: 4rem;
+	color:white;
+}
+}
+/*==========================   Styling the submit button  ============================*/
+.btn-primary {
+	color: #fff;
+	background-color: #991623;
+	border-color: #cddf37;
+}
+.btn-primary:hover {
+ 
+    background-color: transparent!important;
+}
+/*===================   Applying background color on offset column  ===================*/
+.typing {
+    width: 400px;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(20, end), cursor .2s steps(20, end) infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+}
+
+/*======================Navbar stylying=======================================*/
+.navbar-light .navbar-nav .nav-link {
+    color: #545b62;
+    font-weight: 700;
+    margin-left: 2rem;
+}
+.cover
+{
+	background: linear-gradient( rgba(0,0,0,0.85),rgba(0,0,0,0.50)), url(../images/fun.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	width: 100%;
+	min-height: 750px;
+	display: table;
+	position: relative;
+	color: #ffffffbd;
+}
+.colomCenter
+{
+	margin: 0 auto;
+	padding-top: 8rem;
+}
+#headline
+{
+	padding-bottom: 2.5rem;
+	font-size: 2rem;
+}
+
+#reserve_form 
+{
+	padding-top: 0.80rem;
+}
+input {
+    background-color: #f8f9fad6;
+	margin-bottom: 2px;
+	border: 1px solid black;
+}
+select#hotel
+{
+	background-color: #f8f9fad6;
+	margin-bottom: 2px;
+	border: 1px solid black;;
+}
+img{
+	width: 100%;
+}
+.displayTopGap
+{
+	padding-top: 5rem;
+}
+.displayOutput
+{
+	background-color:rgb(189, 189, 196);
+}
+.ContainerGap
+{
+	padding-top: 3rem;
+}
+//--==========================madia Query = Mobile first=========================================
+@media screen and (max-width : 600px)
+{
+	input {
+		background-color: #f8f9fad6;
+		margin-bottom: 2px;
+		width: 100%;
+	}
+	select#hotel {
+		background-color: #f8f9fad6;
+		margin-bottom: 2px;
+		width: 100%;
+		padding: 0 50px;
+	}
+	#headline{
+		padding-bottom: 2rem;
+		text-align: center;
+		font-size: 30px;
+	}
+	#reserve_form {
+		padding: 0.2rem 0 0.6rem 0;
+	}
+	label {
+		/* display: inline-block; */
+		margin-bottom: .1rem;
+	}
+	div#hotelDetails p {
+		/* margin-top: 0; */
+		margin-bottom: 1px;;
+		
+	}
+	span#africa {
+		font-size: 3rem;
+		color: goldenrod;
+	}
+	#second
+	{
+		font-size: 3rem;
+		color:white;
+	}
+	.typing {
+		width: 100%;
+		overflow: hidden;
+		white-space: nowrap;
+		animation: typing 3s steps(20, end), cursor .2s steps(20, end) infinite;
+	}
+	@keyframes typing {
+		from { width: 0 }
+	}
+
+}
